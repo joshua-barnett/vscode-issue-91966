@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  app:
+    image: node:lts-alpine
+    working_dir: /usr/srv
+    volumes:
+      - .:/usr/srv
